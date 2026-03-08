@@ -1,0 +1,105 @@
+.page {
+  min-height: 100vh;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3rem 2rem 6rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.back {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+  color: #444;
+  transition: color 0.2s;
+}
+
+.back:hover {
+  color: #888;
+}
+
+.saveBtn {
+  font-family: 'STSong', 'Songti SC', 'SimSun', serif;
+  font-weight: 400;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  color: #555;
+  transition: color 0.2s;
+}
+
+.saveBtn:hover {
+  color: #ccc;
+}
+
+.field {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #1e1e1e;
+  padding-bottom: 1rem;
+}
+
+.titleInput {
+  font-family: 'STSong', 'Songti SC', 'SimSun', serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 0.06em;
+  color: #e8e8e8;
+  width: 100%;
+  padding: 0;
+}
+
+.titleInput::placeholder {
+  color: #2a2a2a;
+}
+
+.dateLine {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.dateLabel {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  color: #333;
+  flex-shrink: 0;
+}
+
+.dateInput {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: #555;
+  background: none;
+  border: none;
+  outline: none;
+  color-scheme: dark;
+}
+
+.contentWrap {
+  width: 100%;
+}
+
+.contentInput {
+  font-family: 'STSong', 'Songti SC', 'SimSun', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.2;
+  letter-spacing: 0.04em;
+  color: #c8c8c8;
+  width: 100%;
+  min-height: 60vh;
+}
+
+.contentInput::placeholder {
+  color: #222;
+}

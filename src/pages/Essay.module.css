@@ -1,0 +1,63 @@
+.page {
+  min-height: 100vh;
+  padding: 4rem 2rem 6rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.back {
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 4rem;
+  transition: color 0.2s;
+  letter-spacing: 0.05em;
+}
+
+.back:hover {
+  color: #888;
+}
+
+.article {
+  width: 100%;
+}
+
+.title {
+  font-family: 'STSong', 'Songti SC', 'SimSun', serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 0.06em;
+  color: #e8e8e8;
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+}
+
+.meta {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: #3a3a3a;
+}
+
+.content {
+  font-family: 'STSong', 'Songti SC', 'SimSun', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.2;
+  letter-spacing: 0.04em;
+  color: #c8c8c8;
+}
+
+.content p {
+  margin-bottom: 1.4em;
+}
+
+.notFound {
+  padding: 4rem 2rem;
+}

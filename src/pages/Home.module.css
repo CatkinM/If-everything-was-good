@@ -1,0 +1,90 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Hero ── */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.heroText {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: clamp(1.1rem, 3vw, 2rem);
+  letter-spacing: 0.08em;
+  color: #e8e8e8;
+  font-style: italic;
+  user-select: none;
+}
+
+/* ── Essay list ── */
+.list {
+  flex: 1;
+  padding: 6rem 0 8rem;
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1.4rem 0;
+  border-bottom: 1px solid #1a1a1a;
+  transition: opacity 0.2s;
+}
+
+.item:first-child {
+  border-top: 1px solid #1a1a1a;
+}
+
+.item:hover {
+  opacity: 0.6;
+}
+
+.title {
+  font-family: 'STSong', 'Songti SC', 'SimSun', serif;
+  font-weight: 400;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  color: #e8e8e8;
+}
+
+.date {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: #444;
+  flex-shrink: 0;
+  margin-left: 2rem;
+}
+
+/* ── Footer ── */
+.footer {
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footerLink {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: #606060;
+  transition: color 0.3s;
+}
+
+.footerLink:hover {
+  color: #888;
+}

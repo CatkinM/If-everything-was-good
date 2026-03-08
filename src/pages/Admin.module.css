@@ -1,0 +1,97 @@
+.page {
+  min-height: 100vh;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3rem 2rem 6rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.5rem;
+}
+
+.back {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+  color: #444;
+  transition: color 0.2s;
+}
+
+.back:hover {
+  color: #888;
+}
+
+.newBtn {
+  font-family: 'STSong', 'Songti SC', 'SimSun', serif;
+  font-weight: 400;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  color: #555;
+  transition: color 0.2s;
+}
+
+.newBtn:hover {
+  color: #aaa;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 0;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.item:first-child {
+  border-top: 1px solid #1a1a1a;
+}
+
+.itemLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.title {
+  font-family: 'STSong', 'Songti SC', 'SimSun', serif;
+  font-weight: 400;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  color: #e8e8e8;
+}
+
+.meta {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 0.65rem;
+  letter-spacing: 0.07em;
+  color: #383838;
+}
+
+.actions {
+  display: flex;
+  gap: 1.5rem;
+  flex-shrink: 0;
+  margin-left: 2rem;
+}
+
+.action {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: #3a3a3a;
+  transition: color 0.2s;
+}
+
+.action:hover {
+  color: #888;
+}
